@@ -1,0 +1,83 @@
+#textBox {
+    width: 300px;
+    height: 50px;
+    border:2px solid #00001B77;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    display:inline-block;
+    background-color: #9439A60C;
+}
+
+#addButton{
+    position: absolute;
+    top:80px;
+    padding:5px 10px 5px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #CC397B3B;
+}
+
+.blackboard {
+    display:flex;
+    width:800px;
+    height:400px;
+    margin:0 auto;
+    border:2px solid black;
+
+}
+
+.toDo, .inProgress, .done {
+    border-right: 1px solid black;
+    width: 33.333%;
+    overflow-y: auto;
+}
+
+#title-group{
+    display:flex;
+    width:800px;
+    margin:0 auto;
+}
+
+.list-title{
+    opacity: 0.5;
+    width:33.333%;
+    text-align: center;
+    margin-bottom:-25px;
+    display:inline-block;
+    font-style: italic;
+}
+
+.toDo{
+    background-color: #CC39500C;
+}
+
+.inProgress {
+    background-color: #CC395017;
+}
+
+.done {
+    background-color: #CC395027;
+    border-right: none;
+}
+
+.newDivStyle{
+    padding : 5px 15px 5px 15px;
+    margin : 22px 10px 0px 10px;
+    background-color : #E1B6D5;
+    width : 210px;
+    display : inline-block;
+    box-shadow : 2px 2px 3px black;
+    word-break : break-all;
+  }
+
+.clearButton{
+    background-image: url("image/_X.png");
+    background-size: cover;
+    margin-right: -10px;
+    float:right;
+    width:25px;
+    height: 28px;
+    vertical-align: middle;
+}
+
